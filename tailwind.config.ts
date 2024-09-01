@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+const { fontFamily } = require("tailwindcss/defaultTheme")
 
 const config = {
   darkMode: ["class"],
@@ -18,6 +19,13 @@ const config = {
       },
     },
     extend: {
+      backgroundColor:{
+        'lightGreen':'#F3F9F7',
+        'BgDarkGreen':'#C7D8B6'
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

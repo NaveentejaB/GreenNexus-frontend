@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { Inter as FontSans } from "next/font/google"
+// import { Inter } from "next/font/google";
+// import { Inter as FontSans } from "next/font/google"
+import { DM_Sans as DMSans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils"
 
-const inter = Inter({ subsets: ["latin"] });
-const fontSans = FontSans({
+const fontSans = DMSans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
