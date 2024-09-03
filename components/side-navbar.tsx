@@ -13,14 +13,14 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 
 const SideNav = () => {
   return (
-    <div className="md:w-60 bg-white h-screen flex-1 fixed border-r hidden md:flex">
+    <div className="md:w-60 bg-white h-screen flex-1 fixed border-r hidden md:flex M3boxShadow">
       <div className="flex flex-col space-y-6 w-full ">
         <Link
           href="/"
           className="flex flex-row space-x-3 mt-2 items-center justify-center md:justify-start md:px-6  h-16 w-full"
         >
-          <span className="h-7 w-7 bg-zinc-300 rounded-lg" />
-          <span className="font-semibold text-xl hidden md:flex">GreenNexus</span>
+          <span className="h-8 w-8 bg-zinc-300 rounded-lg" />
+          <span className="font-semibold text-lg hidden md:flex">GreenNexus</span>
         </Link>
 
         <div className="flex flex-col space-y-2  md:px-4">
@@ -52,7 +52,7 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
               ${pathname.includes(item.path) ? 'bg-BgDarkGreen' : ''} ${subMenuOpen ? 'bg-BgDarkGreen opacity-80':''}`}
           >
             <div className="flex flex-row space-x-4 items-center">
-              <span className="text-base  flex">{item.title}</span>
+              <span className="text-sm  flex">{item.title}</span>
             </div>
 
             <div className={`${subMenuOpen ? 'rotate-90' : ''} flex`}>
@@ -71,7 +71,7 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
                       subItem.path === pathname ? 'font-bold' : ''
                     } hover:bg-BgDarkGreen pl-4 py-1.5 rounded-lg`}
                   >
-                    <span className=''>{subItem.title}</span>
+                    <span className='text-sm'>{subItem.title}</span>
                   </Link>
                 );
               })}
@@ -85,7 +85,7 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
             item.path === pathname ? 'bg-zinc-100' : ''
           }`}
         >
-          <span className=" text-base flex">{item.title}</span>
+          <span className=" text-sm flex">{item.title}</span>
         </Link>
       )}
     </div>

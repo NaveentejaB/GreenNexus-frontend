@@ -2,7 +2,8 @@
 
 export default function Page(){
     return(
-        <div className="text-black">hai
+        <div className="w-full">
+            
         </div>
     )
 }

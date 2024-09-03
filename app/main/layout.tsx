@@ -6,10 +6,17 @@ import TopNavbar from "@/components/top-navbar";
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="w-screen h-screen flex bg-lightGreen">
-        <SideNav/>
-        <div className="flex-1 mainBox">
-            {children}
-        </div>
+      <div className="w-60 h-full">
+        <SideNav />
+      </div>
+      <div className="h-full flex-1">
+        <div className="h-16 w-full">
+          <TopNavbar />
+        </div> 
+        <main className="w-full overflow-auto ">
+          {children}
+        </main>
+      </div>
     </div>
   );
 }
