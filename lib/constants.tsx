@@ -49,5 +49,50 @@ export const SideNavItems:SideNavItem[] = [
     }
 ]
 
+type initTableType = {
+    title : string,
+    no_of_persons : number,
+    max_no : number,
+    location : string,
+    date : string
+}
 
+export const iniTableData:initTableType[] = [
+    {
+        title : "Tree planting",
+        no_of_persons : 6,
+        max_no : 10,
+        location : "narsinghpur",
+        date : "10-06-2027"
+    },
+    {
+        title : "Tree planting",
+        no_of_persons : 6,
+        max_no : 10,
+        location : "narsinghpur",
+        date : "10-06-2027"
+    },
+    {
+        title : "Tree planting",
+        no_of_persons : 6,
+        max_no : 10,
+        location : "narsinghpur",
+        date : "10-06-2027"
+    },
+    {
+        title : "Tree planting",
+        no_of_persons : 6,
+        max_no : 10,
+        location : "narsinghpur",
+        date : "10-06-2027"
+    },
+    {
+        title : "Tree planting",
+        no_of_persons : 6,
+        max_no : 10,
+        location : "narsinghpur",
+        date : "10-06-2027"
+    },
+   
 
+]
