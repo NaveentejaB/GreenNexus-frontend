@@ -79,6 +79,7 @@ export const iniTableData:initTableType[] = [
         location : "narsinghpur",
         date : "10-06-2027"
     },
+    
     {
         title : "Tree planting",
         no_of_persons : 6,
@@ -93,6 +94,50 @@ export const iniTableData:initTableType[] = [
         location : "narsinghpur",
         date : "10-06-2027"
     },
-   
-
+    {
+        title : "Tree planting",
+        no_of_persons : 6,
+        max_no : 10,
+        location : "narsinghpur",
+        date : "10-06-2027"
+    },
+    {
+        title : "Tree planting",
+        no_of_persons : 6,
+        max_no : 10,
+        location : "narsinghpur",
+        date : "10-06-2027"
+    },
+]
+export const iniUserData = [
+    {
+        name : 'Aparna',
+        place : 'tirupati',
+        age : 22,
+        phone : '9346358919'
+    },
+    {
+        name : 'Aparna',
+        place : 'tirupati',
+        age : 22,
+        phone : '9346358919'
+    },
+    {
+        name : 'Aparna',
+        place : 'tirupati',
+        age : 22,
+        phone : '9346358919'
+    },
+    {
+        name : 'Aparna',
+        place : 'tirupati',
+        age : 22,
+        phone : '9346358919'
+    },
+    {
+        name : 'Aparna',
+        place : 'tirupati',
+        age : 22,
+        phone : '9346358919'
+    },
 ]
