@@ -23,6 +23,9 @@ const config = {
         'lightGreen':'#F3F9F7',
         'BgDarkGreen':'#C7D8B6'
       },
+      textColor:{
+        grayText : '#2E3033'
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
