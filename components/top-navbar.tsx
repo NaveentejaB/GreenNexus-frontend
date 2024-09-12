@@ -6,10 +6,11 @@ import { BellIcon  } from "@heroicons/react/24/outline";
 
 export default function TopNavbar(){
     return(
-        <div className="h-16 w-full bg-white text-black flex justify-between items-center px-8 M3boxShadow1">
+        // 
+        <div className="sticky top-0 z-10 h-16 w-full bg-white text-black flex justify-between items-center px-8 M3boxShadow1">
             <h3 className="text-black text-lg font-semibold">Initiative</h3>
             <div className="flex gap-4 items-center">
-                <BellIcon className="w-6 h-6 text-black mr-4 cursor-pointer"/>
+                <BellIcon className="w-6 h-6 text-black mr-4 cursor-pointer hover:scale-150 hover:text-red-700 hover:ease-in-out hover:translate-y-2 hover:spin-in-180"/>
                 <Avatar className="w-10 h-10 cursor-pointer">
                     <AvatarImage src="https://github.com/shadcn.png" />
                     <AvatarFallback>CN</AvatarFallback>

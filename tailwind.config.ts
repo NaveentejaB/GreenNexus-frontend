@@ -23,6 +23,10 @@ const config = {
         'lightGreen':'#F3F9F7',
         'BgDarkGreen':'#C7D8B6'
       },
+      width:{
+        '3/10':"27%",
+        '7/10':"70%"
+      },
       textColor:{
         grayText : '#2E3033'
       },

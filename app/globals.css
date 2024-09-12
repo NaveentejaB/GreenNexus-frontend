@@ -13,3 +13,40 @@
 .M3boxShadow1{
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.15), 0px 0px 1px rgba(0, 0, 0, 0.3);
 }
+
+/* Global Scrollbar Styles */
+:root {
+    --scrollbar-width: 8px;
+    --scrollbar-track-bg: #f3f4f6;
+    --scrollbar-thumb-bg: #d1d5db;
+    --scrollbar-thumb-border-radius: 4px;
+  }
+  
+  /* Webkit browsers (Chrome, Safari, newer versions of Edge) */
+  ::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-bg);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-bg);
+    border-radius: var(--scrollbar-thumb-border-radius);
+  }
+  
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb-bg) var(--scrollbar-track-bg);
+  }
+  
+  /* For Firefox, we can't directly style the border-radius of the scrollbar */
+  /* But we can create a similar effect by adding padding to the thumb */
+  @supports (scrollbar-color: auto) {
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: var(--scrollbar-thumb-bg) var(--scrollbar-track-bg);
+    }
+  }

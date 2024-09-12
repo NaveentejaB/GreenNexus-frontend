@@ -17,8 +17,8 @@ export const SideNavItems:SideNavItem[] = [
         icon_path:'',
         subMenu : true,
         subMenuItems: [
-            { title: 'Dashboard', path: '/projects/dashboard',icon_path:'' },
-            { title: 'Explore', path: '/projects/explore',icon_path:'' },
+            { title: 'Dashboard', path: '/initiative/dashboard',icon_path:'' },
+            { title: 'Explore', path: '/initiative/explore',icon_path:'' },
           ],
     },
     {
@@ -140,4 +140,40 @@ export const iniUserData = [
         age : 22,
         phone : '9346358919'
     },
+]
+
+export const NearByIniTableData = [
+    {
+        title : "Tree planting",
+        max_no : 10,
+        location : "narsinghpur",
+        Organizer : "Naveen Teja Beerakuppam",
+        duration : "6 hours",
+        date : "10-06-2027"
+    },
+    {
+        title : "Tree planting",
+        max_no : 10,
+        location : "narsinghpur",
+        Organizer : "Naveen ",
+        duration : "6 hours",
+        date : "10-06-2027"
+    },
+    {
+        title : "Tree planting",
+        max_no : 10,
+        location : "narsinghpur",
+        Organizer : "Naveen ",
+        duration : "6 hours",
+        date : "10-06-2027"
+    },
+    {
+        title : "Tree planting",
+        max_no : 10,
+        location : "narsinghpur",
+        Organizer : "Naveen ",
+        duration : "6 hours",
+        date : "10-06-2027"
+    },
+
 ]

@@ -13,7 +13,8 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 
 const SideNav = () => {
   return (
-    <div className="md:w-60 bg-white h-screen flex-1 fixed border-r hidden md:flex M3boxShadow">
+    // w-64 bg-gray-100 p-4 fixed h-full overflow-y-auto
+    <div className="md:w-64 bg-white h-full fixed border-r hidden md:flex M3boxShadow">
       <div className="flex flex-col space-y-6 w-full ">
         <Link
           href="/"
